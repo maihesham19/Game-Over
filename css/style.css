@@ -1,0 +1,58 @@
+body {
+    background-color: rgba(0, 153, 204, 0.507);
+}
+
+.active {
+    color: #09c !important;
+
+}
+
+.parent {
+    position: fixed;
+    inset: 0;
+    z-index: 999;
+    background-color: black;
+}
+
+.game-info {
+    box-shadow: 0 0 5px 2px #000;
+    cursor: pointer;
+    filter: grayscale(50%);
+    transition: all .5s;
+}
+
+.game-info:hover {
+    filter: grayscale(0);
+
+}
+
+a {
+    color: #fff !important;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #09c;
+}
+
+span {
+    font-size: 10px;
+    color: #09c;
+    font-weight: bold;
+}
+
+header {
+    background-image: url(../wraper.png);
+    background-size: cover;
+    background-position: center center;
+    height: 200px;
+}
+
+.opt {
+    font-size: 15px;
+}
+
+#close {
+    cursor: pointer;
+}

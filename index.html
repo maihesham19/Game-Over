@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>game reviews</title>
+</head>
+
+<body>
+  <header></header>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg bg-dark rounded-5 mb-5">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="logo-sm.png" class="w-25" alt=""> GAME REVIEWS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" data-category="mmorpg" href="#">MMORPG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-category="shooter" href="#">SHOOTER</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-category="sailing" href="#">SAILING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-category="permadeath" href="#">PERMADEATH</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-category="superhero" href="#">SUPERHERO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-category="pixel" href="#">PIXEL</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <section class="home mt-3">
+    <div class="container">
+      <div class="row gy-4" id="gameOne">
+
+      </div>
+    </div>
+  </section>
+  <div class="row text-white parent d-none p-4">
+    <div class="col-12 d-flex justify-content-between align-items-center">
+      <h2>Details Game</h2>
+      <i class="fa fa-close" id="close"></i>
+    </div>
+    <div class="row mt-3" id="gameDetails">
+
+    </div>
+  </div>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
