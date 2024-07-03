@@ -56,3 +56,6 @@ header {
 #close {
     cursor: pointer;
 }
+.navbar-toggler-icon{
+    background: none;
+}
